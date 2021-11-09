@@ -23,10 +23,6 @@ describe("Testing the testing environment", () => {
   it("should test that 0 is 0", () => {
     expect(0).toBe(0);
   });
-
-  it("should test that 5 is 5", () => {
-    expect(4).toBe(4);
-  });
 });
 
 describe("Testing the products endpoints", () => {
