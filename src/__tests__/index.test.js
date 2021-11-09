@@ -75,6 +75,7 @@ describe("Testing the products endpoints", () => {
     ).toBe(true);
   });
 
+
   it("should test that the POST /sum endpoint is returning the sum of the elements sent in the body", async () => {
     const response = await request.post("/sum").send({ numbers: [1, 2, 3] });
 
