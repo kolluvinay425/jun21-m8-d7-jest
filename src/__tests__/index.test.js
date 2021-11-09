@@ -25,7 +25,7 @@ describe("Testing the testing environment", () => {
   });
 
   it("should test that 5 is 5", () => {
-    expect(5).toBe(5);
+    expect(4).toBe(4);
   });
 });
 
